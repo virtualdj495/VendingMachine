@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vending.machine.AdminController">
+   <children>
+      <Pane prefHeight="0.0" prefWidth="0.0">
+         <children>
+            <Pane prefHeight="0.0" prefWidth="0.0">
+               <effect>
+                  <ImageInput>
+                     <source>
+                        <Image url="@style/newaccount.png" />
+                     </source>
+                  </ImageInput>
+               </effect>
+            </Pane>
+         </children>
+      </Pane>
+      <TextField fx:id="newUser" layoutX="100.0" layoutY="245.0" prefHeight="36.0" prefWidth="250.0" />
+      <PasswordField fx:id="newPass" layoutX="100.0" layoutY="356.0" prefHeight="36.0" prefWidth="250.0" />
+      <Button layoutX="151.0" layoutY="519.0" mnemonicParsing="false" onAction="#displayAB" onMouseClicked="#changeScreenToPage2" opacity="0.0" prefHeight="42.0" prefWidth="152.0" text="Button" />
+   </children>
+</Pane>

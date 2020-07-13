@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="bg2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vending.machine.PaymentPController">
+   <stylesheets>
+      <URL value="@style/style.css" />
+   </stylesheets>
+   <children>
+      <Button layoutX="363.0" layoutY="22.0" mnemonicParsing="false" onAction="#changeScreenTocashpay" prefHeight="49.0" prefWidth="64.0" style="-fx-font-size: 24;" text="Quit" />
+      <Button layoutX="72.0" layoutY="288.0" mnemonicParsing="false" prefHeight="70.0" onAction="#add1Dollar" prefWidth="81.0" style="-fx-font-size: 24;" text="1 $" />
+      <Button layoutX="185.0" layoutY="288.0" mnemonicParsing="false" prefHeight="70.0" onAction="#add2Dollar" prefWidth="81.0" style="-fx-font-size: 24;" text="2 $" />
+      <Button layoutX="72.0" layoutY="391.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="81.0" onAction="#add10Dollar" style="-fx-font-size: 24;" text="10 $" />
+      <Button layoutX="300.0" layoutY="288.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="81.0" onAction="#add5Dollar" style="-fx-font-size: 24;" text="5 $" />
+      <Button layoutX="185.0" layoutY="391.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="81.0" onAction="#add25Cents" style="-fx-font-size: 24;" text="0.25 C" />
+      <Button layoutX="300.0" layoutY="391.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="81.0" onAction="#add50Cents" style="-fx-font-size: 24;" text="0.5 C" />
+      <Pane id="desc" layoutX="125.0" layoutY="126.0" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Text id="text" fx:id="value" fill="#fffdfd" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text="" wrappingWidth="200.0">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

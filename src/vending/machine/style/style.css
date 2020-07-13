@@ -1,0 +1,38 @@
+
+#bg2{
+    -fx-background-image:url("background.png");
+}
+
+#text{
+    -fx-text-decoration-color: white;
+    -fx-text-fill:white;
+}
+#desc{
+    -fx-background-color:rgba(43,78,181,0.85) ;
+    -fx-padding: 10;
+    -fx-border-width: 8;
+    -fx-border-insets: -1;
+    -fx-border-radius: 7;
+    -fx-border-color: rgba(21,28,57,0.85);
+}
+#img{
+    -fx-background-color:white;
+    -fx-padding: 10;
+}
+.button {
+    -fx-display: inline-block;
+    -fx-padding: 4px,6px;
+    -fx-font-size: 15px;
+    -fx-cursor: pointer;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-outline: none;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to bottom right,#296aab, #081c31);
+    -fx-border: none;
+    -fx-border-radius: 15px;
+    -fx-box-shadow: 0,9px #999;
+}
+.button:hover{
+    -fx-background-color:linear-gradient(to bottom right, #10324f, #050b14);
+}
